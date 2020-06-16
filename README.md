@@ -16,7 +16,7 @@ A simple web service to calculate live averages
 
 ## Run
     The app can be run locally for development with 
-    ```python app.py```
+    ```python app.py
 
     This will run it on localhost:5000. The server will be accessible from your laptop.
 
