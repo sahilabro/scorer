@@ -15,10 +15,10 @@ A simple web service to calculate live averages
     pip install -r requirements.txt
 
 ## Run
-    The app can be run locally for development with 
-    ```python app.py
+The app can be run locally for development with 
+    python app.py
 
-    This will run it on localhost:5000. The server will be accessible from your laptop.
+This will run it on localhost:5000. The server will be accessible from your laptop.
 
 For a production env, the app would need to be packaged and run with gunicorn or equivalent package manager.
 
