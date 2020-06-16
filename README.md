@@ -26,6 +26,8 @@ For a production env, the app would need to be packaged and run with gunicorn or
 
 The persistence layer for this app is plain vanilla JSON file with the name 'scores.json'
 
+This is editable using env_var on the system, namely `JSON_FILE_LOCATION
+
 This is not suitable for data intensive environments. A good noSQL (or SQL) DB would suffice. I was thinking of implementing it using SQlite but as it has AVG functions but ended up doing a vanilla implementation.
 
 
